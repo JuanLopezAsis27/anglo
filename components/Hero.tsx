@@ -35,7 +35,7 @@ export default function Hero() {
         <div className="flex justify-center mb-8">
           <div className="relative w-28 h-28 md:w-36 md:h-36 drop-shadow-2xl">
             <Image
-              src="/logo.svg"
+              src="/logo.png"
               alt="Anglo Tucuman"
               fill
               className="object-contain"

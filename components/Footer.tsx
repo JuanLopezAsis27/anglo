@@ -17,7 +17,7 @@ export default function Footer() {
           <div>
             <div className="flex items-center gap-3 mb-4">
               <div className="relative w-12 h-12">
-                <Image src="/logo.svg" alt="Anglo Tucuman" fill className="object-contain" />
+                <Image src="/logo.png" alt="Anglo Tucuman" fill className="object-contain" />
               </div>
               <div>
                 <span className="font-bold text-xl block leading-none">Anglo</span>
