@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 240" width="200" height="240">
+  <!-- Shield shape -->
+  <path d="M10,10 L190,10 L190,170 Q100,240 10,170 Z" fill="#1B3A8A" stroke="#CC1F1A" stroke-width="6"/>
+
+  <!-- Top stripe blue -->
+  <rect x="10" y="10" width="180" height="18" fill="#7DBCEA"/>
+  <!-- Top stripe white -->
+  <rect x="10" y="28" width="180" height="8" fill="#FFFFFF"/>
+
+  <!-- Lion silhouette (simplified) -->
+  <g fill="white" transform="translate(60, 45)">
+    <ellipse cx="40" cy="22" rx="35" ry="15"/>
+    <circle cx="68" cy="12" r="10"/>
+    <path d="M78,15 Q90,10 85,20 Q80,25 78,20 Z"/>
+    <path d="M5,22 Q0,35 8,35 Q10,28 12,28"/>
+    <path d="M68,22 Q72,38 65,42 Q60,38 63,28"/>
+    <path d="M45,22 Q40,38 33,42 Q28,38 32,28"/>
+  </g>
+
+  <!-- Left laurel branch -->
+  <g stroke="#4A7C3F" stroke-width="2" fill="none" transform="translate(15, 90)">
+    <path d="M0,50 Q10,30 20,10"/>
+    <ellipse cx="8" cy="38" rx="8" ry="4" fill="#5A9A4F" stroke="none" transform="rotate(-30 8 38)"/>
+    <ellipse cx="14" cy="24" rx="8" ry="4" fill="#5A9A4F" stroke="none" transform="rotate(-50 14 24)"/>
+    <ellipse cx="18" cy="10" rx="7" ry="3" fill="#5A9A4F" stroke="none" transform="rotate(-70 18 10)"/>
+    <circle cx="8" cy="38" r="3" fill="#CC1F1A" stroke="none"/>
+    <circle cx="14" cy="24" r="3" fill="#CC1F1A" stroke="none"/>
+  </g>
+
+  <!-- Right laurel branch (mirrored) -->
+  <g stroke="#4A7C3F" stroke-width="2" fill="none" transform="translate(185, 90) scale(-1,1)">
+    <path d="M0,50 Q10,30 20,10"/>
+    <ellipse cx="8" cy="38" rx="8" ry="4" fill="#5A9A4F" stroke="none" transform="rotate(-30 8 38)"/>
+    <ellipse cx="14" cy="24" rx="8" ry="4" fill="#5A9A4F" stroke="none" transform="rotate(-50 14 24)"/>
+    <ellipse cx="18" cy="10" rx="7" ry="3" fill="#5A9A4F" stroke="none" transform="rotate(-70 18 10)"/>
+    <circle cx="8" cy="38" r="3" fill="#CC1F1A" stroke="none"/>
+    <circle cx="14" cy="24" r="3" fill="#CC1F1A" stroke="none"/>
+  </g>
+
+  <!-- Red circle -->
+  <circle cx="100" cy="145" r="52" fill="#CC1F1A"/>
+  <!-- White inner circle -->
+  <circle cx="100" cy="145" r="44" fill="white"/>
+
+  <!-- ICALI text -->
+  <text x="100" y="160" font-family="Georgia, serif" font-size="32" font-weight="bold" fill="#CC1F1A" text-anchor="middle" letter-spacing="2">ICALI</text>
+</svg>
